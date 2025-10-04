@@ -1,0 +1,22 @@
+<robot name="006_mustard_bottle">
+	<link name="_name">
+		<visual>
+			<origin xyz="0 0 0" rpy="-.70 0 0" />
+			<geometry>
+				<mesh filename="006_mustard_bottle/google_16k/textured.obj" scale="1 1 1" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="006_mustard_bottle/google_16k/textured_vhacd.obj" scale="1 1 1" />
+			</geometry>
+		<origin xyz="0 0 " rpy="0 0 0" /></collision>
+		<inertial>
+			<mass value="1.0" />
+			<inertia ixx="0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="0" />
+		</inertial>
+	</link>
+</robot>
